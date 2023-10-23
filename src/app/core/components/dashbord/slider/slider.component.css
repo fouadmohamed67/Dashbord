@@ -1,0 +1,195 @@
+
+/*after navbar*/
+
+/*slider*/
+.card-paper 
+.slider-container{
+    height: auto; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    width: 100%;
+    margin-top: var(--size-700);
+    position: relative;
+  
+}
+.slider-container .card-image{ 
+    height: 160px;
+    width: 160px; 
+    border-radius: 50%;
+    z-index: 2;
+    border: 3px solid var(--primary-color-light) ; 
+}
+.slider-container .card-image img {
+    height: 100%;
+    width: 100%;
+    padding: --;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary-color) ; 
+}
+.slider-container .card{ 
+    width: 500px;
+    margin-top: var(--size-600);
+    background-color: var(--sidebar-color);
+    border-radius: 35px; 
+    transition: var(--tran-03);
+    
+}
+ 
+.slider-container .card-content,
+.slider-container .image-content{
+    position: relative; 
+    padding:  var(--size-400);
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+} 
+ 
+.big-container .card-content .name
+{
+    font-size: var(--fs-700);
+    font-weight: var(--fw-semi-bold);
+    color: var(--text-color);
+    transition: var(--tran-02);
+}
+.big-container .card-content .description
+{
+    font-size: var(--fs-400);
+    font-weight: var(--fw-regular);
+    color: #707070;
+}
+.big-container .btn-slider{
+    border: none;
+    font-size: var(--fs-500);
+    color: var(--primary-color-light);
+    background: var(--primary-color);
+    margin-top: var(--size-100);
+    padding: var(--size-100) var(--size-200);
+    border-radius: var(--size-100);
+    transition: var(--tran-03);
+}
+.big-container .btn-slider:hover{
+    cursor: pointer;
+    background: #265DF2; 
+}
+.overlay{
+    position: absolute;
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 35px 35px 0 35px ;
+}
+.overlay::after,
+.overlay::before{
+    content: '';
+    height: 40px;
+    width: 40px;
+    bottom: -40px;
+    right: 0;
+    background: var(--primary-color);
+    position: absolute;
+}  
+.overlay::after{
+    border-radius: 0 35px 0 0;
+    background-color: var(--sidebar-color);
+}
+@media screen and   (width < 850px) {
+   
+    .big-container .card-content .name{
+        font-size: var(--fs-400);
+    }
+    .slider-container .card{
+        width: 300px;
+    }
+
+}
+@media screen and (width<600) {
+    
+}
+body.dark .big-container .btn-slider{
+    color: var(--text-color);
+}
+.slider-container .card-paper
+{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: var(--tran-03);
+    margin-bottom: var(--size-400);
+}
+/*swiper*/
+swiper-slide{
+    width: fit-content;
+}
+swiper-container{
+    width: 80%;
+    max-width: 80%;
+    max-height: 100vh;
+    
+    min-height: 0;
+    min-width: 0;
+} 
+
+/*loading icon */
+.loader {
+    border: 16px solid #f3f3f3;  
+    border-top: 16px solid var(--primary-color);  
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.loading{
+    background-color:var(--body-color);
+    height: 500px;
+    display: flex;
+    align-items:center; 
+    justify-content: center; 
+    width: 100%;
+    padding-top: var(--size-700); 
+    padding-bottom: var(--size-700);
+    position: absolute;
+    z-index: 10;
+ }
+ 
+/*skelton*/
+.ngx-slider-container{
+    background-color: var(--sidebar-color);
+    height: auto; 
+    display: flex;
+    align-items:center; 
+    justify-content: center; 
+    width: 100%;
+    padding-top: var(--size-700); 
+    padding-bottom: var(--size-700);
+}
+.ngx-card{
+    width: 80%;
+    height: 80%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.skelton-row{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.skelton-item{
+    width: 100%;
+    margin: 0 auto;
+}
+

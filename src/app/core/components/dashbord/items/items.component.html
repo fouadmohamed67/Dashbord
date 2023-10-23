@@ -1,0 +1,62 @@
+<!--skelton -->
+<div  *ngIf="!loaded" class="ngx-cards-container"     >
+    <div  *ngFor="let i of arr" class="ngx-card"> 
+        <div class="card-head">
+            <ngx-skeleton-loader  appearance="circle"   [theme]="{ width: '50px', height: '50px'  }"></ngx-skeleton-loader>
+            <ngx-skeleton-loader  appearance="line"   [theme]="{ width: '80px', height: '20px'  }"></ngx-skeleton-loader>
+        </div>
+        <div> 
+            <ngx-skeleton-loader  appearance="line"   [theme]="{ width: '100px', height: '40px'  }"></ngx-skeleton-loader>
+        </div>
+        <div>
+            <ngx-skeleton-loader  appearance="line"   [theme]="{ width: '90%', height: '5px'  }"></ngx-skeleton-loader>
+            <ngx-skeleton-loader  appearance="line"   [theme]="{ width: '80%', height: '20px'  }"></ngx-skeleton-loader>
+        </div>
+    </div>
+</div>
+<!--items cards-->
+<div *ngIf="loaded" class="cards-container" [dir]="'dir' | translate"> 
+    
+    <div class="card">
+        <div class="card-head">
+            <img src="../../../assets/images/items/dollar.png" alt="">
+            <span class="card-name">{{'dashbord.items.profit' | translate }}</span>
+        </div>
+        <div class="card-body">
+            <h1 class="count">{{'dashbord.items.countProfit' | translate }}</h1>
+        </div>
+        <div class="card-footer">
+            <span class="decrease"> {{'dashbord.items.percentProfit' | translate }} </span>
+            <p>{{'dashbord.items.vsProfit' | translate }}</p> 
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-head">
+            <img src="../../../assets/images/items/store.png" alt="">
+            <span class="card-name">{{'dashbord.items.store' | translate }}</span>
+        </div>
+        <div class="card-body">
+            <h1 class="count">{{'dashbord.items.countstore' | translate }}</h1>
+        </div>
+        <div class="card-footer">
+            <span class="increase">{{'dashbord.items.percentstore' | translate }}   </span>
+            <p>{{'dashbord.items.vsstore' | translate }}</p> 
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-head">
+            <img src="../../../assets/images/items/product.png" alt="">
+            <span class="card-name">{{'dashbord.items.product' | translate }}</span>
+        </div>
+        <div class="card-body">
+            <h1 class="count">{{'dashbord.items.countproduct' | translate }}</h1>
+        </div>
+        <div class="card-footer">
+            <span class="increase">{{'dashbord.items.percentproduct' | translate }}  </span>
+            <p>{{'dashbord.items.vsproduct' | translate }}</p> 
+        </div>
+    </div>
+ 
+</div>

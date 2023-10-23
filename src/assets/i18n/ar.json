@@ -1,0 +1,52 @@
+{
+    "dir":"rtl",
+    "navbar":{
+        "mainHead":"الرئيسية",
+        "profile":"الملف الشخصي",
+        "notifications":"الإشعارات"
+    },
+    "sidebar":{
+        "head1":"قائمه التحكم",
+        "head2":"الجانبيه",
+        "inputSearch":"بحث",
+        "dashbord":"لوحة القيادة",
+        "charts":"الرسوم البيانية",
+        "data":"بيانات",
+        "wallet":"المحفظة" ,
+        "logOut":"تسجيل خروج ",
+        "darkMode":"الوضع الليلي"
+
+    },
+    "dashbord":{
+        "footer":{
+            "notes":"ملاحظات",
+            "resources":"موارد",
+            "bootstrap":"بوتستراب",
+            "tailwind":"تيلويند",
+            "followUs":"انضم الينا",
+            "github":"جيت هاب",
+            "discord":"ديسكورد",
+            "Legal":"الشروط والاحكام",
+            "Privacy":"الخصوصيه",
+            "terms":"الشروط"
+
+        },
+        "slider":{
+            "viewMore":"عرض المزيد"
+        },
+        "items":{
+            "profit":"صافي الربح",
+            "countProfit":"٣٠٢,١ الف",
+            "percentProfit":"١,٢%",
+            "vsProfit":"مقابل ٣٠١,٢ العام الماضي",
+            "store":"المخازن",
+            "countstore":"٣٩٠,٠٨٧",
+            "percentstore":"١٢,٩%",
+            "vsstore":"مقابل ١٠,٤١٠ العام الماضي",
+            "product":"المنتجات",
+            "countproduct":"٣٩٠,٠٨٧",
+            "percentproduct":"٤١%",
+            "vsproduct":"مقابل ٢٥٠,٠٠٠ العام الماضي"
+        }
+    }
+}

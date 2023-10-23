@@ -1,0 +1,88 @@
+<!--skelton -->
+<!--<div  *ngIf="!loaded" class="ngx-slider-container"     >
+    <div   class="ngx-card"> 
+        <div class="skelton-row">
+            <ngx-skeleton-loader  appearance="circle"   [theme]="{ width: '160px', height: '160px'  }"></ngx-skeleton-loader> 
+        </div>
+        <div class="skelton-row"> 
+            <ngx-skeleton-loader  appearance="line"   [theme]="{ width: '180px', height: '40px'  }"></ngx-skeleton-loader>
+        </div>
+        <div class="skelton-row">
+            <ngx-skeleton-loader class="skelton-item" appearance="line"   [theme]="{ width: '100%', height: '10px'  }"></ngx-skeleton-loader>
+            <ngx-skeleton-loader class="skelton-item" appearance="line"   [theme]="{ width: '80%', height: '10px'  }"></ngx-skeleton-loader> 
+        </div>
+        <div class="skelton-row"> 
+            <ngx-skeleton-loader  appearance="line"   [theme]="{ width: '140px', height: '44px'  }"></ngx-skeleton-loader>
+        </div>
+    </div>
+</div>
+-->
+<div  class="big-container">
+    <div *ngIf="!loaded" class="loading">
+        <div class="loader"></div> 
+    </div>
+    <div class="slider-container"> 
+            <div class="card-paper">
+                <swiper-container   pagination="true" pagination-clickable="true">  
+                    <swiper-slide class="card  "> 
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="../../../assets/images/slider/profile1.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Mr.fouad</h2>
+                            <p class="description">commonly used English honorific for men without ious designations of office commonly used English honorific for men without ious designations of office</p>
+                            <button class="btn-slider">{{'dashbord.slider.viewMore' | translate }}</button>
+                        </div>  
+                    </swiper-slide>  
+                    <swiper-slide class="card  "> 
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="../../../assets/images/slider/profile2.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Mr.mohamed</h2>
+                            <p class="description">  commonly used English honorific for men without ommonly used English honorific for men without ious designations of offic ious designations of office</p>
+                            <button class="btn-slider">{{'dashbord.slider.viewMore' | translate }}</button>
+                        </div>  
+                    </swiper-slide>  
+                    <swiper-slide class="card  "> 
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="../../../assets/images/slider/profile3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Mr.Ahmed</h2>
+                            <p class="description">t ious designations of office commonly used English honorific for men without ious designations of office commonly used English honorific for men withou</p>
+                            <button class="btn-slider">{{'dashbord.slider.viewMore' | translate }}</button>
+                        </div>  
+                    </swiper-slide>  
+                    <swiper-slide class="card  "> 
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="../../../assets/images/slider/profile4.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Mr.Othman</h2>
+                            <p class="description"> nations of office commonly used English honorific for men without ious designations of officecommonly used English honorific for men without ious desig</p>
+                            <button class="btn-slider">{{'dashbord.slider.viewMore' | translate }}</button>
+                        </div>  
+                    </swiper-slide>  
+                </swiper-container>
+            </div>    
+    </div>
+     
+    
+</div>

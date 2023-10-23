@@ -1,0 +1,28 @@
+<div class="navbar" [dir]="'dir' | translate">
+    <div class="main-content">
+            <div class="left-side">
+                <h2>{{'navbar.mainHead' | translate }}</h2>
+                <span>
+                    <select class="languages" (change)="translate($event)" name="" id="">
+                        <option value="en">en</option>
+                        <option value="ar">ar</option>
+                    </select>
+                </span>
+            </div>
+            <div class="right-side closed">   
+                <span class="pointer ">
+                   <a routerLink="/slider">
+                    {{'navbar.profile' | translate }} 
+                   </a>
+                </span> 
+                <span class="pointer">
+                    <a routerLink="/">
+                        {{'navbar.notifications' | translate }} 
+                    </a>
+                </span>  
+            </div>
+            <div class="btn-dropdown">
+                <img src="../../../assets/images/navbar/menu.png" alt="">
+            </div>
+    </div>
+</div>

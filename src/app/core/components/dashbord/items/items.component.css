@@ -1,0 +1,83 @@
+.card{
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    background: var(--card-color);
+    padding: var(--size-400);
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    margin: var(--size-100);
+}
+.card-head img{
+    height: 50px;
+    width: 50px;
+}
+.cards-container{
+    background: var(--sidebar-color); 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--size-200);
+    justify-content: space-around;
+}
+.card-head{
+    display: flex;
+    align-items: center; 
+}
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    
+}
+.card-name{
+    margin-left: var(--size-200);
+    margin-right: var(--size-200);
+    font-size: var(--fs-450);
+    font-weight: var( --fw-regular);
+}
+.count{
+    font-size: var(--fs-700);
+    font-weight: 600;
+}
+.card-body::after{
+    content: '';
+    position: absolute;
+    background: #000;
+    height: 2px;
+    width: 80%;
+}
+.decrease, .increase{
+    margin-right: var(--size-100);
+    margin-left: var(--size-100);
+}
+.decrease{
+    color: red;
+}
+.increase{
+    color:green;
+}
+/*ngx skelton*/
+.ngx-cards-container{
+    background: var(--sidebar-color); 
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    align-items: center;
+    padding: var(--size-200);
+    justify-content: space-around;
+}
+.ngx-card{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+    padding: var(--size-400);
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    margin: var(--size-100);
+}

@@ -1,0 +1,8 @@
+.big-container{
+    position: absolute;
+    height: 100%;
+    width: calc(100% - var(--size-1000)); 
+    top: var(--size-800) ;
+    left: var(--size-1000);
+  
+}

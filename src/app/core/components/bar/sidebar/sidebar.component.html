@@ -1,0 +1,96 @@
+<div class="sidebar close"  [dir]="'dir' | translate">
+    <header>
+        <div class="image-text">
+            <span class="image">
+                <img src="assets/images/sidebar/logo.png" alt="logo">
+            </span>
+
+            <div class="text header-text">
+                <span class="name">{{'sidebar.head1' | translate }}</span>
+                <span class="">{{'sidebar.head2' | translate }}</span>
+            </div>
+        </div>
+
+        <span class="toggle-button">
+            <img src="assets/images/sidebar/arro1.png" alt="">
+        </span>
+    </header>
+
+    <div class="menu-bar">
+        <div class="menu">
+            <ul>
+                <li class="search"> 
+                    <span class="icon">
+                        <img src="assets/images/sidebar/search.png" alt="">
+                    </span>
+                    <input type="text" placeholder="{{'sidebar.inputSearch' | translate }}" name="" id="">
+                </li>
+                <li class="nav-link active"> 
+                    <a href="">
+                        <span class="icon">
+                            <img  src="assets/images/sidebar/home.png" alt="">
+                        </span>
+                        <span class="text nav-text">{{'sidebar.dashbord' | translate }}</span> 
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="">
+                        <span class="icon">
+                            <img  src="assets/images/sidebar/bar.png" alt="">
+                        </span>
+                        <span class="text nav-text">{{'sidebar.charts' | translate }}</span> 
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="">
+                        <span class="icon">
+                            <img  src="assets/images/sidebar/data.png" alt="">
+                        </span>
+                        <span class="text nav-text">{{'sidebar.data' | translate }}</span> 
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="">
+                        <span class="icon">
+                            <img  src="assets/images/sidebar/wallet.png" alt="">
+                        </span>
+                        <span class="text nav-text">{{'sidebar.wallet' | translate }}</span> 
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="">
+                        <span class="icon">
+                            <img  src="assets/images/sidebar/home.png" alt="">
+                        </span>
+                        <span class="text nav-text">{{'sidebar.data' | translate }}</span> 
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottom-menu">
+            <li class="nav-link">
+                <a href="">
+                    <span class="icon">
+                        <img  src="assets/images/sidebar/log-out.png" alt="">
+                    </span>
+                    <span class="text nav-text">{{'sidebar.logOut' | translate }}</span> 
+                </a>
+            </li>
+            <li class="nav-link mode-part">  
+                <div class="icon mode">
+                    <span class="icon moon">
+                        <img  src="assets/images/sidebar/moon.png" alt="">
+                    </span>
+                    <span class="icon sun">
+                        <img  src="assets/images/sidebar/sun.png" alt="">
+                    </span> 
+                </div>
+                <span class="mode-text text">{{'sidebar.darkMode' | translate }}</span> 
+                <div  class="toggle-switch">
+                    <span class="switch"></span>
+                </div> 
+            </li>
+        </div>
+    </div>
+</div> 

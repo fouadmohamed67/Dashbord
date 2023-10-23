@@ -1,0 +1,49 @@
+{
+    "navbar":{
+        "mainHead":"Home",
+        "profile":"profile",
+        "notifications":"notifications"
+    },
+    "sidebar":{
+        "head1":"coodingLab",
+        "head2":"web developer",
+        "inputSearch":"search",
+        "dashbord":"dashbord", 
+        "charts":"charts",
+        "data":"data",
+        "wallet":"wallet" ,
+        "logOut":"log out",
+        "darkMode":"Dark Mode"
+    },
+    "dashbord":{
+        "footer":{
+            "notes":"Notes",
+            "resources":"Resources",
+            "bootstrap":"bootstrap",
+            "tailwind":"Tailwind",
+            "followUs":"Follow Us",
+            "github":"Github",
+            "discord":"Discord",
+            "Legal":"Legal",
+            "Privacy":"Privacy",
+            "terms":"Terms &  Conditions" 
+        },
+        "slider":{
+            "viewMore":"view more"
+        },
+        "items":{
+            "profit":"Net Profit",
+            "countProfit":"302.1K",
+            "percentProfit":"1.2%",
+            "vsProfit":"VS 301.2K last year",
+            "store":"Store",
+            "countstore":"12,900",
+            "percentstore":"12,9% ",
+            "vsstore":"VS 10,410 last year",
+            "product":"Product",
+            "countproduct":"390,040",
+            "percentproduct":"41%",
+            "vsproduct":"VS 250,000 last year"
+        }
+    }
+}
